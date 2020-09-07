@@ -1,0 +1,21 @@
+<%- include("partials/header") %>
+
+
+
+<div class="container form">
+
+<div class="authForm">
+  <div class="text-center">
+    <form class="form-signin" action="/login" method="POST" >
+      <h1 class="h3 mb-3 font-weight-normal">LOG IN</h1>
+      <input type="text" class="form-control mb-2" placeholder="Username" name="username" required autofocus>
+      <input type="password" class="form-control mb-2" placeholder="Password" name="password" required>
+      <button class="btn btn-lg btn-primary btn-block" type="submit">Log In</button>
+    </form>
+    <p class="mt-4">New to ThrillCamp? <a href="/register">Sign Up </a>here.</p>
+  </div>
+</div>
+</div>
+
+<%- include("partials/footer") %>
+

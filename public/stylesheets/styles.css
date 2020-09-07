@@ -1,0 +1,94 @@
+/* div.container.index{
+  margin-top: 80px;
+}
+
+div.container.form{
+  margin-top: 80px;
+} */
+
+div.authForm{
+  margin-top: 17vh;
+}
+
+.thumbnail {
+  padding: 0px;
+}
+
+.thumbnail .caption-full {
+  padding: 9px;
+}
+
+hr { 
+  position: relative; 
+  /* top: 20px;  */
+  border: none; 
+  /* height: 12px;  */
+  background: grey; 
+  /* margin-bottom: 50px;  */
+}
+
+.jumbotron{
+  padding-left: 70px;
+  /* padding-bottom: 35px;
+  padding-top: 35px; */
+  background: url("https://images.unsplash.com/photo-1518818419601-72c8673f5852?ixlib=rb-1.2.1&w=1000&q=80");
+  color:white;
+  border-radius: 15px;
+}
+
+input.form-control.mb-2{
+  width: 45%;
+  margin:auto;
+}
+
+button.btn.btn-lg.btn-primary.btn-block{
+  width: 45%;
+  margin:auto;
+}
+
+div.card{
+  border:8px solid grey;
+  border-style: double;
+  border-radius: 17px;
+}
+
+i.gripfire.icon{
+  font-size: 1.3em;
+}
+i.user.plus.icon{
+  font-size: 1.3em;
+}
+i.user.circle.icon{
+  font-size: 1.3em;
+}
+nav{
+  color: white;
+}
+a.nav-link{
+  font-size: 16px;
+}
+a.navbar-brand{
+  font-size: 18px;
+}
+.btn{
+  border-radius: 10px;
+}
+
+.btn-dark{
+  text-align: center;
+  display:inline-block;
+  text-decoration: none !important;
+  margin:0 auto;
+
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -ms-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+.trybutton{
+  width: 100%;
+  text-align: center;
+}
+

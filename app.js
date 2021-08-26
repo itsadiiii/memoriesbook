@@ -24,7 +24,7 @@ app.use(methodOverride("_method"));
 app.use(flash());
 
 
-mongoose.connect('mongodb+srv://admin-aditya:1Aditya.com@cluster0.mqeql.mongodb.net/CampThrill', {useNewUrlParser: true});
+
 
 
 // Campground.create({
